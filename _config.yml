@@ -1,3 +1,8 @@
 theme: jekyll-theme-merlot
 title: Diogo's Blog
-description: my blog description
+email: diogoafonsopedronunes@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  my blog description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  diogo-p-nunes
