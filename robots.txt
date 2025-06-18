@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://diogo-p-nunes.github.io/al-folio/sitemap.xml
+Sitemap: https://diogo-p-nunes.github.io/sitemap.xml
