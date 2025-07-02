@@ -1,115 +1,87 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@article{nunes2025inesc,
   selected={true},
-  inspirehep_id = {3255}
+  author={A.P. Nunes, Diogo and Ribeiro, Eug{\'e}nio},  
+  title={{INESC-ID@ eRisk 2025: Exploring Fine-Tuned, Similarity-Based, and Prompt-Based Approaches to Depression Symptom Identification}},
+  year={{2025}},
+  note = {{arXiv preprint, accepted for eRisk @ CLEF 2025 (9-12 Sep)}},
+	doi ={10.48550/arXiv.2506.02924},
+  abstract = {{In this work, we describe our team's approach to eRisk's 2025 Task 1: Search for Symptoms of Depression. Given a set of sentences and the Beck's Depression Inventory - II (BDI) questionnaire, participants were tasked with submitting up to 1,000 sentences per depression symptom in the BDI, sorted by relevance. Participant submissions were evaluated according to standard Information Retrieval (IR) metrics, including Average Precision (AP) and R-Precision (R-PREC). The provided training data, however, consisted of sentences labeled as to whether a given sentence was relevant or not w.r.t. one of BDI's symptoms. Due to this labeling limitation, we framed our development as a binary classification task for each BDI symptom, and evaluated accordingly. To that end, we split the available labeled data into training and validation sets, and explored foundation model fine-tuning, sentence similarity, Large Language Model (LLM) prompting, and ensemble techniques. The validation results revealed that fine-tuning foundation models yielded the best performance, particularly when enhanced with synthetic data to mitigate class imbalance. We also observed that the optimal approach varied by symptom. Based on these insights, we devised five independent test runs, two of which used ensemble methods. These runs achieved the highest scores in the official IR evaluation, outperforming submissions from 16 other teams.}}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{nunes2025placebo,
+	selected={true},
+	author ={A.P. Nunes, Diogo and Furrer, Dan and Berger, Sara and Cecchi, Guillermo and Ferreira-Gomes, Joana and Neto, Fani and Martins de Matos, David and Apkarian, A Vania and Branco, Paulo},
+	title ={{Advancing the prediction and understanding of placebo responses in chronic back pain using large language models}},
+	year ={{2025}},
+	note = {{medRxiv preprint, under review for the European Journal of Pain}},
+	doi ={10.1101/2025.01.21.25320888},
+  abstract = {{Placebo analgesia in chronic pain is a widely studied clinical phenomenon, where expectations about the effectiveness of a treatment can result in substantial pain relief when using an inert treatment agent. While placebos offer an opportunity for non-pharmacological treatment in chronic pain, not everyone demonstrates an analgesic response. Prior research has identified biopsychosocial factors that determine the likelihood of an individual to respond to a placebo, yet generalizability and ecological validity in those studies have been limited due to the inability to account for dynamic personal and treatment effects—which are well-known to play a role. Here, we assessed the potential of using fine-tuned large language models (LLMs) to predict placebo responders in chronic low-back pain using contextual features extracted from patient interviews, as they speak about their lifestyle, pain, and treatment history. We re-analyzed data from two clinical trials where individuals performed open-ended interviews and used these to develop a predictive model of placebo response. Our findings demonstrate that semantic features extracted with LLMs accurately predicted placebo responders, achieving a classification accuracy of 74% in unseen data, and validating with 70% accuracy in an independent cohort. Further, LLMs eliminated the need for pre-selecting search terms or to use dictionary approaches, enabling a fully data-driven approach. This LLM method further provided interpretable insights into psychosocial factors underlying placebo responses, highlighting nuanced linguistic patterns linked to responder status, which tap into semantic dimensions such as “anxiety,” “resignation,” and “hope.” These findings expand on prior research by integrating state-of-art NLP techniques to address limitations in interpretability and context sensitivity of standard methods like bag-of-words and dictionary-based approaches. This method highlights the role of language models to link language and psychological states, paving the way for a deeper yet quantitative exploration of biopsychosocial phenomena, and to understand how they relate to treatment outcomes, including placebo.}}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{botelho2024tackling,
+  author={Botelho, Catarina and Gimeno-G{\'o}mez, David and Teixeira, Francisco and Mendon{\c{c}}a, John and Pereira, Patr{\'\i}cia and A.P. Nunes, Diogo and Rolland, Thomas and Pompili, Anna and Solera-Ure{\~n}a, Rub{\'e}n and Ponte, Maria and others},
+  title={Tackling Cognitive Impairment Detection from Speech: A submission to the PROCESS Challenge},
+  year={{2024}},
+  note = {{arXiv preprint, accepted for Interspeech 2025}},
+  doi={10.48550/arXiv.2501.00145},
+  abstract = {{This work describes our group's submission to the PROCESS Challenge 2024, with the goal of assessing cognitive decline through spontaneous speech, using three guided clinical tasks. This joint effort followed a holistic approach, encompassing both knowledge-based acoustic and text-based feature sets, as well as LLM-based macrolinguistic descriptors, pause-based acoustic biomarkers, and multiple neural representations (e.g., LongFormer, ECAPA-TDNN, and Trillson embeddings). Combining these feature sets with different classifiers resulted in a large pool of models, from which we selected those that provided the best balance between train, development, and individual class performance. Our results show that our best performing systems correspond to combinations of models that are complementary to each other, relying on acoustic and textual information from all three clinical tasks.
+}}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{nunes2024systematic,
+	author ={A.P. Nunes, Diogo and Ferreira-Gomes, Joana and Neto, Fani and Martins de Matos, David},
+	title ={{Computational analysis of the language of pain: a systematic review}},
+	year={{2024}},
+	note = {{arXiv preprint, under review for ACM Transactions on Computing for Healthcare}},
+	doi ={10.48550/arXiv.2404.16226},
+  abstract = {{Objectives: This study aims to systematically review the literature on the computational processing of the language of pain, or pain narratives, whether generated by patients or physicians, identifying current trends and challenges. Methods: Following the PRISMA guidelines, a comprehensive literature search was conducted to select relevant studies on the computational processing of the language of pain and answer pre-defined research questions. Data extraction and synthesis were performed to categorize selected studies according to their primary purpose and outcome, patient and pain population, textual data, computational methodology, and outcome targets. Results: Physician-generated language of pain, specifically from clinical notes, was the most used data. Tasks included patient diagnosis and triaging, identification of pain mentions, treatment response prediction, biomedical entity extraction, correlation of linguistic features with clinical states, and lexico-semantic analysis of pain narratives. Only one study included previous linguistic knowledge on pain utterances in their experimental setup. Most studies targeted their outcomes for physicians, either directly as clinical tools or as indirect knowledge. The least targeted stage of clinical pain care was self-management, in which patients are most involved. Affective and sociocultural dimensions were the least studied domains. Only one study measured how physician performance on clinical tasks improved with the inclusion of the proposed algorithm. Discussion: This review found that future research should focus on analyzing patient-generated language of pain, developing patient-centered resources for self-management and patient-empowerment, exploring affective and sociocultural aspects of pain, and measuring improvements in physician performance when aided by the proposed tools.}}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@article{nunes2023modelling,
+	author ={A.P. Nunes, Diogo and Ferreira-Gomes, Joana and Neto, Fani and Martins de Matos, David},
+	title ={{Modeling Chronic Pain Experiences from Online Reports Using the Reddit Reports of Chronic Pain Dataset}},
+	journal ={{Information}},
+	volume ={{14}},
+	number ={{4}},
+	pages ={{237}},
+	year ={{2023}},
+	doi ={10.3390/info14040237},
+  abstract = {{Reported experiences of chronic pain may convey qualities relevant to the exploration of this private and subjective experience. We propose this exploration by means of the Reddit Reports of Chronic Pain (RRCP) dataset. We define and validate the RRCP for a set of subreddits related to chronic pain, identify the main concerns discussed in each subreddit, model each subreddit according to their main concerns, and compare subreddit models. The RRCP dataset comprises 86,537 submissions from 12 subreddits related to chronic pain (each related to one pathological background). Each RRCP subreddit was found to have various main concerns. Some of these concerns are shared between multiple subreddits (e.g., the subreddit Sciatica semantically entails the subreddit backpain in their various concerns, but not the other way around), whilst some concerns are exclusive to specific subreddits (e.g., Interstitialcystitis and CrohnsDisease). Our analysis details each of these concerns and their (dis)similarity relations. Although limited by the intrinsic qualities of the Reddit platform, to the best of our knowledge, this is the first research work attempting to model the linguistic expression of various chronic pain-inducing pathologies and comparing these models to identify and quantify the similarities and differences between the corresponding emergent, chronic pain experiences.}}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{nunes2023narratives,
+	author={A.P. Nunes, Diogo and Ferreira-Gomes, Joana and Oliveira, Daniela and Vaz, Carlos and Pimenta, Sofia and Neto, Fani and Martins de Matos, David},
+	title={{Chronic Pain Patient Narratives Allow for the Estimation of Current Pain Intensity}}, 
+	booktitle={{2023 IEEE 36th International Symposium on Computer-Based Medical Systems (CBMS)}}, 
+	pages={{716-719}},
+	year={{2023}},
+	publisher={{IEEE}},
+	doi={10.1109/CBMS58004.2023.00306},
+  abstract = {{We demonstrate a proof-of-concept for the analysis of the language of chronic pain for pain intensity estimation. Importantly, we show that focus on specific words/themes is especially correlated with specific pain intensity categories. We interviewed chronic pain patients and collected demographic and clinical data. 65 patients (40 females), averaging 56.4±12.7 years of age, participated in the study. Patients reported their current pain intensity on a Visual Analogue Scale, which we discretized into 3 classes: mild, moderate, and severe pain. We extracted language features from the transcribed interview of each patient and used them to classify their pain intensity category. We measured performance with the weighted F1 score. Finally, we analyzed potential confounding variables for internal validity. The best performing model was the Support Vector Machine with an Early Fusion of select language features, with an F1 of 0.60, improving 39.5% upon the baseline. Patients with mild pain focused more on verbs, whilst moderate and severe pain patients focused on adverbs, and nouns and adjectives, respectively. We show that language features from patient narratives indeed convey information relevant for pain intensity estimation, and that our models can take advantage of that.}}
+}
+
+@inproceedings{nunes2022chronic,
+	author={A.P. Nunes, Diogo and Ferreira-Gomes, Joana and Oliveira, Daniela and Vaz, Carlos and Pimenta, Sofia and Neto, Fani and Martins de Matos, David},
+	title={{Chronic Pain and Language: A Topic Modelling Approach to Personal Pain Descriptions}}, 
+	booktitle={{12th Congress of the European Pain Federation EFIC}}, 
+	pages={{}},
+	year={{2022}},
+	publisher={{}},
+	doi={},
+  abstract = {{Chronic pain is recognized as a major health problem, with impacts not only at the economic, but also at the social, and individual levels. Being a private and subjective experience, it is impossible to externally and impartially experience, describe, and interpret chronic pain as a purely noxious stimulus that would directly point to a causal agent and facilitate its mitigation, contrary to acute pain, the assessment of which is usually straightforward. Verbal communication is, thus, key to convey relevant information to health professionals that would otherwise not be accessible to external entities, namely, intrinsic qualities about the painful experience and the patient. We propose and discuss a topic modelling approach to recognize patterns in verbal descriptions of chronic pain, and use these patterns to quantify and qualify experiences of pain. Our approaches allow for the extraction of novel insights on chronic pain experiences from the obtained topic models and latent spaces. We argue that our results are clinically relevant for the assessment and management of chronic pain.}}
+}
+
+@article{nunes2021analysis,
+	author={A.P. Nunes, Diogo and Ferreira-Gomes, Joana and Vaz, Carlos and Oliveira, Daniela and Pimenta, Sofia and Neto, Fani and de Martins de Matos, David},
+	title={{Analysis of chronic pain descriptions for base-pathology prediction: the case of rheumatoid arthritis versus spondylitis pathology prediction based on pain descriptions}},
+	journal={{DOR}},
+	volume={{28}},
+	number={{2}},
+	pages={{78--87}},
+	year={{2021}},
+	doi ={10.24875/DOR.M22000014},
+  abstract = {{The language of pain is a sub-language used to describe a subjective, private, and painful experience. In the clinical assessment and management of chronic pain, which is not as straightforward as acute pain, verbal communication is key to convey relevant information to health professionals that would otherwise not be accessible, namely, intrinsic qualities of the painful experience and that of the patient. We raise the hypothesis of applying Natural Language Processing techniques to transcribed verbal descriptions of chronic pain, to capture that information in the form of linguistic features that characterize and quantify the experience of pain of each patient. Furthermore, we demonstrate the application of these features for base-pathology prediction, specifically regarding the diagnosis of rheumatoid arthritis and spondyloarthritis. A dataset of verbal descriptions was collected for this work, considering 85 patients. The descriptions were obtained by having each patient freely answer to an interview of seven questions. The dataset was pre-processed, and features were extracted, which were then fed into binary classification machine learning models. We obtained an accuracy of 79%, in a Leave-One-Out cross-validation fashion. Based on an extensive experimental setup, we conclude that the computational analysis of the language of pain can potentially extract useful information to aid health professionals, in this case, focusing on base-pathology prediction. We also conclude on which semantic features provided more useful information for the task (distribution of pain on the body), and which did not.}}
 }

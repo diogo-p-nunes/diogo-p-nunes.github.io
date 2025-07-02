@@ -2,16 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle:
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: prof_pic.png
+  image_circular: true # crops the image to make it circular
+  more_info:
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,13 +19,23 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  limit: 1 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+*Early Stage Researcher @ [INESC-ID Lisbon](https://www.inesc-id.pt/)/[Human Language Technologies lab](https://www.hlt.inesc-id.pt/w/Diogo_A.P._Nunes)*  
+*PhD student @ [Instituto Superior Técnico, Universidade de Lisboa](https://tecnico.ulisboa.pt/en/)*  
+**Contact:** [diogo.p.nunes@inesc-id.pt](mailto:diogo.p.nunes@inesc-id.pt)
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm a computer science researcher interested in how the way we use language relates to our psychological and clinical states. I’ve been exploring how this connection can help us better understand chronic pain patients and support clinical-decision making. Lately, I’ve been focusing on how Large Language Models (LLMs) can help these patients express themselves, self-manage, and consequently feel more empowered. This research has been in collaboration with the [Faculty of Medicine of the University of Porto (FMUP)](https://sigarra.up.pt/fmup/pt/web_page.inicial) and [São João Hospital](https://portal-chsj.min-saude.pt/) in Porto, and, since 2024, with the [Feinberg School of Medicine - Northwestern University](https://www.feinberg.northwestern.edu/index.html), in Chicago. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Along the way, we have published nationally and internationally. Part of our work was awarded the ["Best Clinical Research Paper Award 2021"](https://www.aped-dor.org/index.php/premios/revista-dor-bene) by the [Portuguese Association for the Study of Pain](https://www.aped-dor.org/). Our research has also been discussed in the press ([Sábado](https://fisioglobal.pt/as-novas-armas-contra-a-dor-cronica-revista-sabado/), [Público](https://www.publico.pt/2023/04/22/ciencia/noticia/garantidamente-ja-sentimos-dor-fisica-2046798)) and selected as a [finalist](https://www.youtube.com/watch?v=GXs4pEkG8Kk&ab_channel=ULisboa) for the ["3 Minute Thesis"](https://www.ulisboa.pt/en/info/three-minute-thesis-university-lisbon) pitch competition in 2023.
+
+Recently employed techniques:
+- LLM few-shot with Retrieval-Augmented Generation (RAG)
+- LLM fine-tuning and continual pretraining
+- Data synthesis with LLMs
+- Interpretation pipelines for language models
+- Large-scale web data extraction (>80k entries)
+
