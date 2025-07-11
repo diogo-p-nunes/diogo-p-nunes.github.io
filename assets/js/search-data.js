@@ -51,8 +51,8 @@ ninja.data = [{
           section: "News",},{id: "news-our-team-reached-1st-place-erisk-2025-in-detecting-depression-symptoms-in-text-paper-preprint-is-available-here-update-30-06-paper-accepted-for-erisk-clef-in-madrid-2025",
           title: 'Our team reached 1st place @ eRisk 2025 in detecting depression symptoms in...',
           description: "",
-          section: "News",},{id: "news-i-was-invited-as-a-keynote-speaker-for-a-local-computational-pain-neuroscience-conference-aarhus-university-denmark-i-ll-be-there-in-september",
-          title: 'I was invited as a keynote speaker for a local Computational Pain Neuroscience...',
+          section: "News",},{id: "news-i-was-invited-as-a-keynote-speaker-for-the-international-conference-on-computational-pain-neuroscience-aarhus-university-denmark-i-ll-be-there-in-september",
+          title: 'I was invited as a keynote speaker for the International Conference on Computational...',
           description: "",
           section: "News",},{
         id: 'social-email',
