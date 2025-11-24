@@ -57,6 +57,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-language-as-a-predictor-of-multiple-clinical-chronic-pain-assessments-was-accepted-for-ecai-2025-bologna-italy-proceedings-soon-you-can-read-the-abstract-here",
           title: 'Our paper “Language as a Predictor of Multiple Clinical Chronic Pain Assessments” was...',
           description: "",
+          section: "News",},{id: "news-doctoral-thesis-successfully-defended-with-distinction-and-honor",
+          title: 'Doctoral thesis successfully defended, with Distinction and Honor!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
